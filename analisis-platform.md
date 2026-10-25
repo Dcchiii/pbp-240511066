@@ -6,3 +6,8 @@
 | **Keunggulan** | Lintas platform otomatis (asal ada browser), update instan tanpa aksi user, tidak perlu instalasi | Performa lebih tinggi karena akses langsung ke hardware, bisa jalan offline penuh, UI lebih kaya/kompleks | Mudah dibawa, akses sensor perangkat (kamera, GPS, dll), terintegrasi notifikasi push |
 | **Keterbatasan** | Tergantung koneksi internet, performa dibatasi sandbox browser, akses hardware terbatas | Perlu instalasi/update manual tiap perangkat, tidak otomatis lintas OS (butuh build terpisah per OS) | Fragmentasi perangkat/OS, proses review app store bisa lama, ukuran layar terbatas |
 | **Contoh aplikasi** | Twitter(X) | Discord | Twitch |
+
+# Referensi
+MDN Web Docs — Web Architecture and Web Development Basics https://developer.mozilla.org
+Android Developers Documentation — Android System Architecture and Guide to App Architecture https://developer.android.com
+Microsoft Learn — Desktop Application Development Documentation https://learn.microsoft.com
