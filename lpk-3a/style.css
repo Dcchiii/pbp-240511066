@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background: #f0f4f8;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.app {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #0066cc;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 16px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #004a99;
+}
+
+#stats {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+li.selesai span.teks {
+    text-decoration: line-through;
+    color: #999;
+}
+
+li span.teks {
+    flex: 1;
+}
+
+li .hapus {
+    background: #e74c3c;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+}
+
+li .hapus:hover {
+    background: #c0392b;
+}
